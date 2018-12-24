@@ -1,0 +1,10 @@
+<ul class='maps'>
+  {% for map in include.maps %}
+  <li>
+    <a href='https://minemap.saltiresable.com/{{ map }}/index.html' target='_blank'>
+      <div><h1>{{map}}</h1></div>
+      <img src='/static/minemap/{{ map }}.png'>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

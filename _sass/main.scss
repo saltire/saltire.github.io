@@ -1,0 +1,58 @@
+body > main {
+  margin: 0 auto;
+  padding: 5rem 1rem;
+  box-sizing: content-box;
+
+  @media only screen and (min-width: ($banner-size * 2 + 20px)) {
+    max-width: $banner-size * 2;
+  }
+
+  @media only screen and (min-width: ($banner-size * 3 + 20px)) {
+    max-width: ($banner-size - $crest-size) * 3;
+  }
+
+  @media only screen and (min-width: ($banner-size * 4 + 20px)) {
+    max-width: ($banner-size - $crest-size) * 4;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    a {
+      display: inline-block;
+      line-height: 1.25em;
+    }
+  }
+
+  strong {
+    color: $blue;
+    font-weight: 700;
+  }
+
+  em {
+    color: $orange;
+    font-style: italic;
+  }
+  
+  ul {
+    margin: 0 0 40px;
+    padding: 0;
+
+    li {
+      margin: 0 0 1em;
+      list-style: none;
+
+      h1 {
+        margin: 0 0 .25em;
+        font-size: 30px;
+        text-transform: lowercase;
+      }
+
+      @for $i from 1 through length($rainbow) {
+        &:nth-child(#{length($rainbow)}n + #{$i}) {
+          a {
+            color: #{nth($rainbow, $i)}
+          }
+        }
+      }
+    }
+  }
+}

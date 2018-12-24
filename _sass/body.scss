@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: $black;
+}
+::-moz-selection {
+  background-color: $black;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  background: $umbra;
+  color: $light;
+  font-family: $body-font, serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2.125rem;
+
+  &::before {
+    $b-orange: #ffcc99;
+    $b-yellow: #ffffb2;
+    $b-green: #8ecc8e;
+    $b-cyan: #8ecccc;
+
+    content: ' ';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-position: 0 0, 100% 0, 0 100%, 0 0;
+    background-size: 100% 10px, 10px 100%, 100% 10px, 10px 100%;
+    background-image:
+      linear-gradient(to right, $b-cyan, $b-green),
+      linear-gradient(to bottom, $b-green, $b-yellow),
+      linear-gradient(to left, $b-yellow, $b-orange),
+      linear-gradient(to top, $b-orange, $b-cyan);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    pointer-events: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font, sans-serif;    
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
+  a {
+    padding: 0 .15em;
+    border-radius: 3px;
+    color: $purple;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:not(.transparent) {
+      background-color: $black;
+    }
+
+    &:hover, &:focus {
+      color: $cyan;
+
+      &:not(.transparent) {
+        background-color: $penumbra;
+      }
+    }
+  }
+}

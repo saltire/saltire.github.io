@@ -1,0 +1,112 @@
+body > header {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 0;
+  background: $black;
+  text-align: center;
+  font-size: 20px;
+
+  a {
+    height: $crest-size;
+    background-image: url('/static/title-320.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+
+    &.title {
+      width: $banner-size;
+    }
+
+    &.crest {
+      width: $crest-size;
+    }
+  }
+
+  > div {
+    vertical-align: top;
+    width: $title-size;
+    margin-top: 1em;
+    text-align: left;
+
+    h1 {
+      margin: 0 0 .1em;
+      font-size: 1em;
+      font-weight: 700;
+      line-height: 1em;
+      text-transform: lowercase;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: .5em;
+      font-weight: 400;
+      line-height: 1em;
+      text-transform: lowercase;
+    }
+  }
+
+  @media only screen and (min-width: ($banner-size * 2 + 20px)) {
+    font-size: 40px;
+
+    a {
+      height: $crest-size * 2;
+      background-image: url('/static/title-640.png');
+
+      &.title {
+        width: $banner-size * 2;
+      }
+
+      &.crest {
+        width: $crest-size * 2;
+      }
+    }
+
+    > div {
+      display: inline-block;
+      width: $title-size * 2;
+    }
+  }
+
+  @media only screen and (min-width: ($banner-size * 3 + 20px)) {
+    font-size: 60px;
+
+    a {
+      height: $crest-size * 3;
+      background-image: url('/static/title-960.png');
+
+      &.title {
+        width: $banner-size * 3;
+      }
+
+      &.crest {
+        width: $crest-size * 3;
+      }
+    }
+
+    > div {
+      display: inline-block;
+      width: $title-size * 3;
+    }
+  }
+
+  @media only screen and (min-width: ($banner-size * 4 + 20px)) {
+    font-size: 80px;
+
+    a {
+      height: $crest-size * 4;
+      background-image: url('/static/title-1280.png');
+
+      &.title {
+        width: $banner-size * 4;
+      }
+
+      &.crest {
+        width: $crest-size * 4;
+      }
+    }
+
+    > div {
+      display: inline-block;
+      width: $title-size * 4;
+    }
+  }
+}

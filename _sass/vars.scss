@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,300i,700,700i|Montserrat:400,700');
+
+$header-font: 'Montserrat';
+$body-font: 'Roboto Slab';
+
+$red: #e5a0a0;
+$orange: #e5bd95;
+$yellow: #e5e595;
+$green: #b8d897;
+$teal: #97d8b8;
+$cyan: #97d8d8;
+$blue: #a0c3e5;
+$indigo: #a9a9f2;
+$purple: #c3a0e5;
+$rose: #d897b8;
+$light: #f2f2cd;
+$mid: #babfa6;
+$dark: #868c7c;
+$penumbra: #545951;
+$umbra: #3c3f3b;
+$black: #242624;
+
+$rainbow: $purple $rose $red $orange $yellow $green $teal $cyan $blue $indigo;
+
+$banner-size: 320px;
+$crest-size: 73px;
+$title-size: $banner-size - $crest-size;
+$title-margin: 50px;
