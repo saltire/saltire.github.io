@@ -26,3 +26,7 @@ $banner-size: 320px;
 $crest-size: 73px;
 $title-size: $banner-size - $crest-size;
 $title-margin: 50px;
+
+$breakpoint-sm: $banner-size * 2 + 20px;
+$breakpoint-md: $banner-size * 3 + 20px;
+$breakpoint-lg: $banner-size * 4 + 20px;

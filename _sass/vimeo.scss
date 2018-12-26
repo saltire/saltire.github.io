@@ -1,0 +1,16 @@
+.vimeo {
+  display: block;
+  width: 320px;
+  height: 320px;
+  margin: 2rem auto;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    width: 480px;
+    height: 480px;
+  }
+
+  @media only screen and (min-width: $breakpoint-md) {
+    width: 640px;
+    height: 640px;
+  }
+}

@@ -18,7 +18,7 @@ Just make a selection in game, fire a command, and watch your blocks appear in m
 I'll see if I can get this working again, and put some pictures up.
 
 I later used this same LED panel in conjunction with my
-[Hard Livin'](/articles/saltires-github/hardlivin) art installation.
+[Hard Livin'](/articles/hardlivin) art installation.
 
 *Languages:* Java, Arduino
 

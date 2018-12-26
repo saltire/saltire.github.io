@@ -3,15 +3,15 @@ body > main {
   padding: 5rem 1rem;
   box-sizing: content-box;
 
-  @media only screen and (min-width: ($banner-size * 2 + 20px)) {
+  @media only screen and (min-width: $breakpoint-sm) {
     max-width: $banner-size * 2;
   }
 
-  @media only screen and (min-width: ($banner-size * 3 + 20px)) {
+  @media only screen and (min-width: $breakpoint-md) {
     max-width: ($banner-size - $crest-size) * 3;
   }
 
-  @media only screen and (min-width: ($banner-size * 4 + 20px)) {
+  @media only screen and (min-width: $breakpoint-lg) {
     max-width: ($banner-size - $crest-size) * 4;
   }
 
@@ -30,6 +30,12 @@ body > main {
   em {
     color: $orange;
     font-style: italic;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
   }
   
   ul {

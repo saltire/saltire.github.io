@@ -1,19 +1,26 @@
 ---
 title: Hard Livin'
-summary: A physical tile-based board game installation.
+summary: A handmade, room-sized board game installation.
 tags: art, code, coding, computer, hardhack, languages, learning, programming, development
 github: hardlivin
 ---
 
-An organization tool for an art exhibition I did in 2014 with my friend Zen Rankin.
-This required the arrangement of 500 painted pieces of a room-sized board game.
+In 2014 I did an art exhibition with longtime friend and prolific comic illustrator 
+[Zen Rankin](https://www.zenrankin.com), titled **Hard Livin'**.
+
+![Hard Livin' promo postcard](/static/hardlivin/postcard.png)
+
+It was a "room-sized board game," filling the walls of 
+[Hashtag Gallery](https://www.hashtaggallery.com) in Toronto with 
+500 unique, hand-painted wooden squares.
+
+![Me standing in front of a wall of game tiles](/static/hardlivin/marcus-squares.jpg)
+
 Managing all of these pieces and arranging them in a specific order was a logistical nightmare,
-so I wrote this little UI to help us prototype the game.
+so I wrote this little drag-and-drop UI to help us prototype the game.
 
 I also made a couple little toys using the pieces, like a memory game,
-and a connection to the LED matrix panel I used in
-[jumbotron](/articles/saltires-github/jumbotron).
+and a window display on the same LED matrix panel I used in
+[jumbotron](/articles/jumbotron).
 
-*Languages:* Python, Javascript, Arduino
-
-*Future plans:* Create more interesting games with the tiles, either browser-based or actual cards.
+![LED Hard Livin' sign in a window](/static/hardlivin/led-window-instagram.jpg)

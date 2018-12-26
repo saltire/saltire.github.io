@@ -21,6 +21,6 @@ Also helped me cheat, of course.
 *Languages:* Python
 
 *Future plans:* This was a pretty quick one-off. But I'd love to try this with other games.
-I did a quick one for [Terraria](/articles/saltires-github/terramap) at one point,
-and a much more extensive one for [Minecraft](/articles/saltires-github/cmapbash).
+I did a quick one for [Terraria](/articles/terramap) at one point,
+and a much more extensive one for [Minecraft](/articles/minecraft-maps).
 Who knows... Dwarf Fortress, maybe?
