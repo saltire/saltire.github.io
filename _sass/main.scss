@@ -16,6 +16,8 @@ body > main {
   }
 
   h1, h2, h3, h4, h5, h6 {
+    margin: 2em 0 1em;
+
     a {
       display: inline-block;
       line-height: 1.25em;
@@ -37,14 +39,25 @@ body > main {
     max-width: 100%;
     margin: auto;
   }
-  
-  ul {
+
+  ul.articles {
     margin: 0 0 40px;
     padding: 0;
 
     li {
-      margin: 0 0 1em;
+      margin: 0 0 1rem;
       list-style: none;
+      overflow: auto;
+
+      img {
+        width: 120px;
+        height: 120px;
+        margin-right: 1rem;
+        border: 5px solid $black;
+        border-radius: 3px;
+        float: left;
+        box-sizing: content-box;
+      }
 
       h1 {
         margin: 0 0 .25em;

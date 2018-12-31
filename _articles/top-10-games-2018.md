@@ -1,33 +1,35 @@
 ---
 title: Top 10 Games of 2018
 summary: My end-of-year list of personal favourites
+thumbnail: /static/top-10-games-2018/thumbnail.png
+banner: /static/top-10-games-2018/banner.png
 tags: [game, games, gaming, review, top10]
-updated: 2018-12-30
+date: 2018-12-31 18:00:00
 ---
 
-I play a lot of computer games, largely indie titles. Here are my favourites from this year!
+I play a lot of computer games, mostly indie titles. Here are my favourites from this year!
 
 
-### BELOW
+## BELOW
 
 ![BELOW](/static/top-10-games-2018/below.jpg)
 
 Slipped in just before the deadline, so I haven’t gotten too far yet, but I'm putting it in because
-I was a big fan of *Super Time Force Ultra*, 
+I was a big fan of *Super Time Force Ultra*,
 and I've been waiting for this once ever since I saw its awesome 70's horror style promo poster.
 
 It's really atmospheric and immersive
 A bit of a frustrating grind at points, but that's the nature of roguelikes!
 We're spoiled these days.
 
-Has a really slick, intuitive, and very minimal UI, 
+Has a really slick, intuitive, and very minimal UI,
 and does a really good job of introducing its mechanics with practically no explanatory text.
 It looks fantastic and modern, but somehow also still retro,
 with a kind of darker *Little Big Adventure* vibe.
 Looking forward to blowing a lot of hours on this one.
 
 
-### Russian Subway Dogs
+## Russian Subway Dogs
 
 ![Russian Subway Dogs](/static/top-10-games-2018/russian-subway-dogs.jpg)
 
@@ -42,7 +44,7 @@ The difficulty ramps up pretty quickly but you sometimes find yourself making in
 which is always a blast.
 
 
-### RUINER
+## RUINER
 
 ![RUINER](/static/top-10-games-2018/ruiner.jpg)
 
@@ -58,18 +60,18 @@ Gotta say it was a pleasure turning all my lights red,
 cranking the volume, and immersing myself in some frenzied slaughter.
 
 
-### Minit
+## Minit
 
 ![Minit](/static/top-10-games-2018/minit.jpg)
 
 This seemed to me like an instant classic, due to its one central defining game mechanic
 and really stripped-down production.
 It's a clever little scavenger hunt with wacky characters and fun, catchy music.
-Short and sweet and practically begging for speedrunning, 
+Short and sweet and practically begging for speedrunning,
 if that's your thing... or even if it isn't.
 
 
-### Return of the Obra Dinn
+## Return of the Obra Dinn
 
 ![Return of the Obra Dinn](/static/top-10-games-2018/obra-dinn.jpg)
 
@@ -80,12 +82,12 @@ Detailed environments held together with a really cool aesthetic;
 plus, it's nautical-themed, which always gets points from me.
 
 
-### Guacamelee! 2
+## Guacamelee! 2
 
 ![Guacamelee! 2](/static/top-10-games-2018/guacamelee-2.jpg)
 
 I played both games in this series for the first time this year, so I'm kind of reviewing them both.
-First off, they're beautifully detailed and eye-poppingly colourful; 
+First off, they're beautifully detailed and eye-poppingly colourful;
 just the kind of extra you'd expect from a Mexican-themed game.
 The catchy action-mariachi music really holds up too.
 
@@ -94,23 +96,23 @@ you have a large number of moves that you often have to use a lot of in quick su
 This makes for some really demanding arena battles and jumping puzzles.
 Pretty much any criticism I have of this game revolves around wanting more of it.
 
-Guac 2 largely keeps the same overall style as the first but improves in a few areas, 
+Guac 2 largely keeps the same overall style as the first but improves in a few areas,
 with more goofy jokes, flashier animation, imaginative level design,
 and somehow even MORE detailed and colourful environments.
 
 Oh, and most importantly, VASTLY IMPROVED CHICKEN MECHANICS!
 
 
-### Ghost of a Tale
+## Ghost of a Tale
 
 ![Ghost of a Tale](/static/top-10-games-2018/ghost-of-a-tale.jpg)
 
 This is a beautiful medieval RPG where you play a minstrel mouse,
 sneaking around a castle keep filled with vicious guard rats.
 The graphics are AAA quality and the characters are really cute.
-The gameplay is mostly stealth but it's still exciting: 
+The gameplay is mostly stealth but it's still exciting:
 you really feel like a mouse with all the scurrying and hiding.
-Even without any real combat on your part, 
+Even without any real combat on your part,
 this game has some pretty spectacular and heart-pounding scenes.
 
 But the most surprising thing was how rich and detailed a world I found myself in.
@@ -123,7 +125,7 @@ Impressively, *Ghost of a Tale* was developed largely by a single person,
 and it seems like there's plenty of room for a sequel, so I'll certainly be waiting for that.
 
 
-### Into the Breach
+## Into the Breach
 
 ![Into the Breach](/static/top-10-games-2018/into-the-breach.jpg)
 
@@ -148,7 +150,7 @@ The soundtrack by Ben Prunty is tight and focused and really boosts the tension.
 Nice pixel art character portraits too – for both the human resistance and our new insect overlords.
 
 
-### EXAPUNKS
+## EXAPUNKS
 
 ![EXAPUNKS](/static/top-10-games-2018/exapunks.jpg)
 
@@ -158,8 +160,8 @@ If *Opus Magnum* had been released a month later, it would also be high up on th
 but the retro 90s hacker underground aesthetic is especially badass.
 
 In a lot of ways it’s the same type of game as Opus Magnum: an inventive concept and
-increasingly challenging puzzles that require creative solutions 
-and pit your scores against other players'. 
+increasingly challenging puzzles that require creative solutions
+and pit your scores against other players'.
 The intense brain-racking of the core puzzles is punctuated by lighter minigames,
 and a story that unfolds in a few different threads at once.
 There's just more of everything in this one: head-to-head competitive levels,
@@ -170,11 +172,11 @@ is just genius, especially when you see the authentically awful 90's-era graphic
 Plus the soundtrack is solid, and it works great as focus music for all your real-world hacking.
 
 
-### Celeste
+## Celeste
 
 ![Celeste](/static/top-10-games-2018/celeste.jpg)
 
-Gonna have to side with the critics on this one: 
+Gonna have to side with the critics on this one:
 *Celeste* is all around the best game I played all year.
 The story is undeniably good, with a central and no doubt widely relatable theme.
 Bright and colourful, every level has its own look, feel, sound, and gameplay style.
@@ -182,12 +184,12 @@ Bright and colourful, every level has its own look, feel, sound, and gameplay st
 But the main reason I'm putting this at #1 is simply this:
 it made me curse and hyperventilate more than any other game this year.
 The levels are HARD, and consistently so.
-It's a LOT of jumping puzzles that take a few simple mechanics 
+It's a LOT of jumping puzzles that take a few simple mechanics
 and really test the limits of each one, not to mention your patience.
 In a sadistic little touch, it keeps track of the number of deaths you rack up on each level,
 which for me often numbered well into the thousands.
 
-The art is just beautiful: true pixel art in the levels, 
+The art is just beautiful: true pixel art in the levels,
 with smooth animations to match the tight controls.
 Really kickass score that really goes a lot of places,
 but keeps a recurring theme that really ties it all together,
@@ -198,7 +200,7 @@ In a nice touch, each level has a "B-side" with a harder set of screens,
 Now imagine my eyes widening as I beat the B-side levels,
 only to discover an even more punishing "C-side" after each one.
 
-Plus, as I write this, I've just found out that the developers plan to release a new set of 
+Plus, as I write this, I've just found out that the developers plan to release a new set of
 even harder levels soon. Fuuuuck. There go my thumbs... again.
 
 
@@ -209,7 +211,7 @@ even harder levels soon. Fuuuuck. There go my thumbs... again.
 
 I had this game very early in its Early Access phase, and it was my #1 favourite game of 2017,
 which is why I didn't put this on the list.
-But I never made a top 10 for 2017, and *Dead Cells* had its 1.0 release in 2018, 
+But I never made a top 10 for 2017, and *Dead Cells* had its 1.0 release in 2018,
 so I’ll still mention it.
 
 It fucking rules and I've put a lot of hours into it.
@@ -221,12 +223,12 @@ but damn, it's pure dopamine when you get a good build together and really tear 
 
 ### Beat Saber
 
-Only good rhythm game I’ve played in VR so far. 
+Only good rhythm game I’ve played in VR so far.
 Looks really cool for such dead simple gameplay,
-and it's got a practically infinite range of difficulty. 
+and it's got a practically infinite range of difficulty.
 Plus you get a nice workout.
 
-The included tunes are great for the game, 
+The included tunes are great for the game,
 though maybe not anything you’d catch me listening to outside of it.
 There are a couple of unofficial level editors, and plugins for finding homemade levels;
 while they vary in quality, it’s great that the door is open to playing with more familiar tunes.
@@ -235,13 +237,13 @@ I’m sure if they release official, community-based versions of these, the expe
 
 ### No Man’s Sky Next
 
-*No Man’s Sky* has been out a couple years now, but I think for many people, 
-the Next update is where it really started to deliver on its initial promise, so let’s throw it in. 
+*No Man’s Sky* has been out a couple years now, but I think for many people,
+the Next update is where it really started to deliver on its initial promise, so let’s throw it in.
 2018 is certainly when I started putting serious hours into this game for the first time.
 
-There’s still lots of room to improve, but I’ve got to salute Hello Games for putting in the work, 
-especially in the face of all the shit they’ve probably taken from people since they first launched. 
-It’s the most beautiful game I’ve ever seen, and there really is nothing like 
+There’s still lots of room to improve, but I’ve got to salute Hello Games for putting in the work,
+especially in the face of all the shit they’ve probably taken from people since they first launched.
+It’s the most beautiful game I’ve ever seen, and there really is nothing like
 having your own little ship that you can fly anywhere in the galaxy you want, whenever you want.
 
 

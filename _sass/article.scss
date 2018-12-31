@@ -1,3 +1,26 @@
+.article-header {
+  margin-bottom: 2rem;
+
+  .article-date {
+    font-style: italic;
+  }
+
+  .social {
+    margin-left: .5rem;
+
+    a {
+      display: inline-block;
+      background: none;
+
+      svg {
+        display: inline-block;
+        vertical-align: middle;
+        fill: $light;
+      }
+    }
+  }
+}
+
 .tags {
   li {
     display: inline-block;

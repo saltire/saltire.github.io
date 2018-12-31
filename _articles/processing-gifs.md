@@ -1,8 +1,10 @@
 ---
 title: Processing GIFs
 summary: Looping eye candy written in Processing.
+thumbnail: /static/processing-gifs/thumbnail.png
 tags: art, code, coding, computer, languages, learning, programming, development, processing
 github: bbgifs
+date: 2018-12-28 14:00:00
 ---
 
 This is my foray into the 'hypnotic GIF' section of the internet,
@@ -30,5 +32,5 @@ I was going for mountains but ended up with clouds. Big, waxy clouds.
 
 Each of these took me a good chunk of a weekend to create.
 A big part of the first one was figuring out how to generate the random patterns;
-if you want a technical diversion, 
+if you want a technical diversion,
 [read how I came up with a tiling 2D noise generator!](/articles/perlin-donut)

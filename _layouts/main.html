@@ -2,9 +2,11 @@
 layout: default
 ---
 
-<ul>
-  {% for article in site.articles %}
+<ul class='articles'>
+  {% assign articles = site.articles | sort:"date" | reverse %}
+  {% for article in articles %}
   <li>
+    {% if article.thumbnail %}<img src='{{ article.thumbnail }}' alt='{{ article.title }}' />{% endif %}
     <h1><a href='{{ article.url }}'>{{ article.title }}</a></h1>
     <span>{{ article.summary }}</span>
   </li>

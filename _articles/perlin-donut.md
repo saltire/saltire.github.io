@@ -1,13 +1,15 @@
 ---
 title: Perlin donut
 summary: Tiling 2D wallpaper patterns using random noise
+thumbnail: /static/perlin-donut/thumbnail.png
 tags: art, code, coding, computer, languages, learning, programming, development, processing
 github: bbgifs
+date: 2018-12-28 16:00:00
 ---
 
 One of the challenges I faced while creating [my first Processing animation](/articles/processing-gifs)
 was getting a nice, procedurally generated but continuous landscape.
-A lot of procedural visual art uses a [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise) 
+A lot of procedural visual art uses a [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)
 function to get smooth, semi-random textures.
 Processing provides such a function that gives you as much smooth noise as you need,
 but since I wanted to do an *infinitely scrolling* animation,
