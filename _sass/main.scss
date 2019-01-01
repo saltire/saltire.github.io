@@ -40,13 +40,16 @@ body > main {
     margin: auto;
   }
 
-  ul.articles {
+  .articles {
     margin: 0;
     padding: 0;
 
-    li {
+    a {
+      display: block;
       margin: 0 0 1rem;
-      list-style: none;
+      background: none;
+      color: $light;
+      font-weight: normal;
       overflow: auto;
 
       img {
@@ -63,12 +66,32 @@ body > main {
         margin: 0 0 .25em;
         font-size: 30px;
         text-transform: lowercase;
+
+        span {
+          padding: 0 .15em;
+          border-radius: 3px;
+          background-color: $black;
+        }
       }
 
       @for $i from 1 through length($rainbow) {
         &:nth-child(#{length($rainbow)}n + #{$i}) {
-          a {
+          h1 {
             color: #{nth($rainbow, $i)}
+          }
+        }
+      }
+
+      &:hover, &:focus {
+        background: none;
+
+        img {
+          border-color: $penumbra;
+        }
+
+        h1 {
+          span {
+            background-color: $penumbra;
           }
         }
       }

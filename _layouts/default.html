@@ -8,7 +8,7 @@
     <title>{{ title }}</title>
     <meta property='og:site_name' content='saltire sable.'>
     <meta property='og:title' content='{{ title }}'>
-    <meta property='og:image' content='{{ site.url }}/static/thumbnail.png'>
+    <meta property='og:image' content='{{ site.url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}/static/thumbnail.png{% endif %}'>
     <meta property='og:url' content='{{ site.url }}{{ page.url }}'>
     <meta name='twitter:card' content='summary'>
 		<meta name='twitter:site' content='@saltire'>
