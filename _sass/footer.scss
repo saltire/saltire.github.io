@@ -1,41 +1,20 @@
 body > footer {
   padding: 3rem 0;
   background: $black;
+  text-align: center;
 
-  > div {
-    text-align: center;
+  strong {
+    color: $cyan;
   }
 
-  .logos {
+  .social {
     margin: 2rem 0;
-    text-align: center;
 
     a {
-      $logo-size: 40px;
+      @include social-link;
 
-      display: inline-block;
-      width: $logo-size;
-      height: $logo-size;
-      margin: 0 20px;
-      background-color: $penumbra;
-      background-size: auto $logo-size;
-      background-image: url('/static/logos-cutout.png');
-
-      &.github {
-        background-position: 0px top;
-      }
-
-      &.itchio {
-        background-position: -$logo-size top;
-      }
-
-      &.twitter {
-        background-position: -$logo-size * 2 top;
-      }
-
-      &:hover, &:focus {
-        background-color: $cyan;
-      }
+      font-size: 30px;
+      line-height: 50px;
     }
   }
 

@@ -2,6 +2,8 @@
 
 $header-font: 'Montserrat';
 $body-font: 'Roboto Slab';
+$font-size: 20px;
+$line-height: 2.125rem;
 
 $red: #e5a0a0;
 $orange: #e5bd95;
@@ -27,6 +29,23 @@ $crest-size: 73px;
 $title-size: $banner-size - $crest-size;
 $title-margin: 50px;
 
+$breakpoint-xs: $banner-size + 20px;
 $breakpoint-sm: $banner-size * 2 + 20px;
 $breakpoint-md: $banner-size * 3 + 20px;
 $breakpoint-lg: $banner-size * 4 + 20px;
+
+@mixin social-link {
+  display: inline-block;
+  width: 1.75em;
+  height: 1.75em;
+  padding: 0;
+  text-align: center;
+
+  svg {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -10%;
+    fill: $light;
+  }
+}

@@ -2,8 +2,23 @@
 layout: default
 ---
 
+<div class='intro'>
+  <img src='/static/pixelportrait-730.png' alt='portrait'>
+
+  <p>
+    Greetings! I'm <strong>Marcus Kamps</strong>. I'm a visual artist and hacker based in Toronto.
+  </p>
+
+  <p class='social'>
+    <a href='https://twitter.com/saltire' title='Twitter'>{% include svg/twitter.svg %}</a>
+    <a href='https://instagram.com/saltiresable' title='Instagram'>{% include svg/instagram.svg %}</a>
+    <a href='https://github.com/saltire' title='GitHub'>{% include svg/github.svg %}</a>
+    <a href='https://saltire.itch.io' title='itch.io'>{% include svg/itchio.svg %}</a>
+  </p>
+</div>
+
 <div class='articles'>
-  {% assign articles = site.articles | sort:"date" | reverse %}
+  {% assign articles = site.articles | sort: 'date' | reverse %}
   {% for article in articles %}
   <a href='{{ article.url }}'>
     <img src='{% if article.thumbnail %}{{ article.thumbnail }}{% else %}/static/thumbnail.png{% endif %}' alt='{{ article.title }}' />

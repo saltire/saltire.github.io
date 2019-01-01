@@ -6,17 +6,10 @@
   }
 
   .social {
-    margin-left: .5rem;
+    float: right;
 
     a {
-      display: inline-block;
-      background: none;
-
-      svg {
-        display: inline-block;
-        vertical-align: middle;
-        fill: $light;
-      }
+      @include social-link;
     }
   }
 }
