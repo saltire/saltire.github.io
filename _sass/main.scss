@@ -1,6 +1,6 @@
 body > main {
   margin: 0 auto;
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   box-sizing: content-box;
 
   @media only screen and (min-width: $breakpoint-sm) {
@@ -41,7 +41,7 @@ body > main {
   }
 
   ul.articles {
-    margin: 0 0 40px;
+    margin: 0;
     padding: 0;
 
     li {

@@ -41,6 +41,7 @@ defaults:
       type: articles
     values:
       layout: article
+      permalink: /:title
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

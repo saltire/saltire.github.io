@@ -32,5 +32,5 @@ I was going for mountains but ended up with clouds. Big, waxy clouds.
 
 Each of these took me a good chunk of a weekend to create.
 A big part of the first one was figuring out how to generate the random patterns;
-if you want a technical diversion,
-[read how I came up with a tiling 2D noise generator!](/articles/perlin-donut)
+if you want a technical diversion, read
+[how I came up with a tiling 2D noise generator!]({% link _articles/perlin-donut.md %})
