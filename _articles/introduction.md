@@ -1,7 +1,6 @@
 ---
 title: Introduction
 summary: Rebooting the blog
-thumbnail: /static/introduction/thumbnail.png
 tags: [blog, blogging, code, coding, education, learning, meta, programming]
 date: 2018-12-24 14:01:00
 ---
