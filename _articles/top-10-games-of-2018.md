@@ -10,7 +10,7 @@ date: 2018-12-31 18:00:00
 I play a lot of computer games, mostly indie titles. Here are my favourites from this year!
 
 
-## BELOW
+## 10. BELOW
 
 ![BELOW](/static/top-10-games-2018/below.jpg)
 
@@ -29,7 +29,7 @@ with a kind of darker *Little Big Adventure* vibe.
 Looking forward to blowing a lot of hours on this one.
 
 
-## Russian Subway Dogs
+## 9. Russian Subway Dogs
 
 ![Russian Subway Dogs](/static/top-10-games-2018/russian-subway-dogs.jpg)
 
@@ -44,7 +44,7 @@ The difficulty ramps up pretty quickly but you sometimes find yourself making in
 which is always a blast.
 
 
-## RUINER
+## 8. RUINER
 
 ![RUINER](/static/top-10-games-2018/ruiner.jpg)
 
@@ -60,7 +60,7 @@ Gotta say it was a pleasure turning all my lights red,
 cranking the volume, and immersing myself in some frenzied slaughter.
 
 
-## Minit
+## 7. Minit
 
 ![Minit](/static/top-10-games-2018/minit.jpg)
 
@@ -71,7 +71,7 @@ Short and sweet and practically begging for speedrunning,
 if that's your thing... or even if it isn't.
 
 
-## Return of the Obra Dinn
+## 6. Return of the Obra Dinn
 
 ![Return of the Obra Dinn](/static/top-10-games-2018/obra-dinn.jpg)
 
@@ -82,7 +82,7 @@ Detailed environments held together with a really cool aesthetic;
 plus, it's nautical-themed, which always gets points from me.
 
 
-## Guacamelee! 2
+## 5. Guacamelee! 2
 
 ![Guacamelee! 2](/static/top-10-games-2018/guacamelee-2.jpg)
 
@@ -103,7 +103,7 @@ and somehow even MORE detailed and colourful environments.
 Oh, and most importantly, VASTLY IMPROVED CHICKEN MECHANICS!
 
 
-## Ghost of a Tale
+## 4. Ghost of a Tale
 
 ![Ghost of a Tale](/static/top-10-games-2018/ghost-of-a-tale.jpg)
 
@@ -125,7 +125,7 @@ Impressively, *Ghost of a Tale* was developed largely by a single person,
 and it seems like there's plenty of room for a sequel, so I'll certainly be waiting for that.
 
 
-## Into the Breach
+## 3. Into the Breach
 
 ![Into the Breach](/static/top-10-games-2018/into-the-breach.jpg)
 
@@ -150,7 +150,7 @@ The soundtrack by Ben Prunty is tight and focused and really boosts the tension.
 Nice pixel art character portraits too – for both the human resistance and our new insect overlords.
 
 
-## EXAPUNKS
+## 2. EXAPUNKS
 
 ![EXAPUNKS](/static/top-10-games-2018/exapunks.jpg)
 
@@ -172,7 +172,7 @@ is just genius, especially when you see the authentically awful 90's-era graphic
 Plus the soundtrack is solid, and it works great as focus music for all your real-world hacking.
 
 
-## Celeste
+## 1. Celeste
 
 ![Celeste](/static/top-10-games-2018/celeste.jpg)
 
