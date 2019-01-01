@@ -1,6 +1,6 @@
 ---
 title: Top 10 Games of 2018
-summary: My year-end list of personal favourites
+summary: My year-end list of personal favourites.
 thumbnail: /static/top-10-games-2018/thumbnail.png
 banner: /static/top-10-games-2018/banner.png
 tags: [game, games, gaming, review, top10]

@@ -1,6 +1,6 @@
 ---
 title: Perlin donut
-summary: Tiling 2D wallpaper patterns using random noise
+summary: Tiling 2D wallpaper patterns using random noise.
 thumbnail: /static/perlin-donut/thumbnail.png
 tags: art, code, coding, computer, languages, learning, programming, development, processing
 github: bbgifs

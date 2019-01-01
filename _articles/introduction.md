@@ -1,7 +1,8 @@
 ---
 title: Introduction
-summary: Rebooting the blog
+summary: Rebooting the blog.
 tags: [blog, blogging, code, coding, education, learning, meta, programming]
+
 date: 2018-12-24 14:01:00
 ---
 
