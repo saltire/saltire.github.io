@@ -28,19 +28,15 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-collections:
-  articles:
-    output: true
-
 defaults:
   -
     values:
       layout: default
   -
     scope:
-      type: articles
+      type: posts
     values:
-      layout: article
+      layout: post
       permalink: /:title
 
 # Exclude from processing.

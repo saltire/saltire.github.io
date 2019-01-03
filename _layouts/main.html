@@ -17,13 +17,13 @@ layout: default
   </p>
 </div>
 
-<div class='articles'>
-  {% assign articles = site.articles | sort: 'date' | reverse %}
-  {% for article in articles %}
-  <a href='{{ article.url }}'>
-    <img src='{% if article.thumbnail %}{{ article.thumbnail }}{% else %}/static/thumbnail.png{% endif %}' alt='{{ article.title }}' />
-    <h1><span>{{ article.title }}</span></h1>
-    {{ article.summary }}
+<div class='posts'>
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% for post in posts %}
+  <a href='{{ post.url }}'>
+    <img src='{% if post.thumbnail %}{{ post.thumbnail }}{% else %}/static/thumbnail.png{% endif %}' alt='{{ post.title }}' />
+    <h1><span>{{ post.title }}</span></h1>
+    {{ post.summary }}
   </a>
   {% endfor %}
 </div>

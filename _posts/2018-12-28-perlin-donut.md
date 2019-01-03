@@ -7,7 +7,7 @@ github: bbgifs
 date: 2018-12-28 16:00:00
 ---
 
-One of the challenges I faced while creating [my first Processing animation]({% link _articles/processing-gifs.md %})
+One of the challenges I faced while creating [my first Processing animation]({% link _posts/2018-12-28-processing-gifs.md %})
 was getting a nice, procedurally generated but continuous landscape.
 A lot of procedural visual art uses a [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)
 function to get smooth, semi-random textures.
