@@ -2,7 +2,7 @@
 title: Perlin donut
 summary: Tiling 2D wallpaper patterns using random noise.
 thumbnail: /static/perlin-donut/thumbnail.png
-tags: art, code, coding, computer, languages, learning, programming, development, processing
+tags: [art, code, coding, generative, learning, math, processing]
 github: bbgifs
 date: 2018-12-28 16:00:00
 ---
@@ -19,6 +19,7 @@ The way to get a looping sequence of values from a Perlin noise function
 is to sample points on a circle from a two-dimensional array, like this:
 
 ![Circle of pixels highlighted on a 2D Perlin noise field](/static/perlin-donut/perlin-2d-circle.png)
+{: .gallery-1}
 
 This will get you a one-dimensional string of noise values that loop seamlessly and vary smoothly.
 Problem is, I needed a *two-dimensional array* of noise values,
@@ -32,6 +33,7 @@ so I wrote a math function to translate the U,V points on the torus' surface to 
 and tested it out with a little interactive Processing sketch:
 
 ![Torus with moving mouse cursor and red dot indicating matching position on the surface](/static/perlin-donut/torus.gif)
+{: .gallery-1}
 
 Here, the X and Y position of the mouse cursor in the frame are mapped on the surface of the torus
 and indicated by the red dot. The white dot is 0,0.
@@ -40,6 +42,7 @@ Anyway, I took the noise values along the surface of the donut and flattened the
 The result looked like this:
 
 ![Noise field that repeats horizontally and vertically](/static/perlin-donut/tilingnoise.png)
+{: .gallery-1}
 
 Success! A clear tiling pattern with no obvious seams.
 Reminds me of the background on my first GeoCities site.
@@ -65,6 +68,7 @@ As the torus wobbles along this diagonal circle, it passes through different are
 before coming back to where it started, and the result looks like this:
 
 ![Animated noise field](/static/perlin-donut/animatednoise.gif)
+{: .gallery-1}
 
 Cool! Kinda like churning lava, with a bit of that gross DOOM-pulsating-flesh vibe.
 I could experiment with different kinds of movement to get different results,

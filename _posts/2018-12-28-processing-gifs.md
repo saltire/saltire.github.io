@@ -2,7 +2,7 @@
 title: Processing GIFs
 summary: Looping eye candy written in Processing.
 thumbnail: /static/processing-gifs/thumbnail.png
-tags: art, code, coding, computer, languages, learning, programming, development, processing
+tags: [art, code, generative, learning, programming, processing]
 github: bbgifs
 date: 2018-12-28 14:00:00
 ---

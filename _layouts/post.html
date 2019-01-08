@@ -2,28 +2,42 @@
 layout: default
 ---
 
-<header class='post-header'>
-  <p>
-    {% if page.date %}<span class='post-date'>{{ page.date | date: '%B %e, %Y' }}</span>{% endif %}
+<div class='post'>
+  <header>
+    <p>
+      {% if page.date %}<span class='date'>{{ page.date | date: '%B %e, %Y' }}</span>{% endif %}
 
-    <span class='social'>
-      <a href='https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}' title='Share on Twitter' target='_blank'>
-        {% include svg/twitter.svg %}
-      </a>
+      <span class='social'>
+        <a href='https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}' title='Share on Twitter' target='_blank'>
+          {% include svg/twitter.svg %}
+        </a>
 
-      <a href='https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}' title='Share on Facebook' target='_blank'>
-        {% include svg/facebook.svg %}
-      </a>
-    </span>
-  </p>
+        <a href='https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}' title='Share on Facebook' target='_blank'>
+          {% include svg/facebook.svg %}
+        </a>
+      </span>
+    </p>
 
-  {% if page.banner %} <img src='{{ page.banner }}' alt='{{ page.title }}' />{% endif %}
-</header>
+    {% if page.banner %} <img src='{{ page.banner }}' alt='{{ page.title }}' />{% endif %}
+  </header>
 
-{{ content }}
+  {{ content }}
 
-<!-- {% if page.tags %}
-<ul class='tags'>
-  {% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}
-</ul>
-{% endif %} -->
+  <footer>
+    <p>
+      <span class='tags'>
+        {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
+      </span>
+
+      <span class='social'>
+        <a href='https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}' title='Share on Twitter' target='_blank'>
+          {% include svg/twitter.svg %}
+        </a>
+
+        <a href='https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}' title='Share on Facebook' target='_blank'>
+          {% include svg/facebook.svg %}
+        </a>
+      </span>
+    </p>
+  </footer>
+</div>

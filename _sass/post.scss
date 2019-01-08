@@ -1,23 +1,73 @@
-.post-header {
-  margin-bottom: 2rem;
+.post {
+  > header {
+    margin-bottom: 2rem;
+    border-bottom: 1px dotted $light;
 
-  .post-date {
-    font-style: italic;
-  }
-
-  .social {
-    float: right;
-
-    a {
-      @include social-link;
+    .date {
+      font-style: italic;
     }
   }
-}
 
-.tags {
-  li {
-    display: inline-block;
-    padding: 0 .15em;
-    background: $black;
+  > footer {
+    margin-top: 3rem;
+    border-top: 1px dotted $light;
+  }
+
+  > header, > footer {
+    p {
+      overflow: auto;
+
+      .social {
+        float: right;
+
+        a {
+          @include social-link;
+        }
+      }
+    }
+  }
+
+  .tags {
+    span {
+      display: inline-block;
+      margin-right: .5rem;
+      padding: 0 .15em;
+      border-radius: 3px;
+      background: $black;
+      font-family: $header-font;
+      font-size: 80%;
+
+      @for $i from 1 through length($rainbow) {
+        &:nth-child(#{length($rainbow)}n + #{$i}) {
+          color: #{nth($rainbow, $i)}
+        }
+      }
+    }
+  }
+
+  p {
+    &.gallery-1 {
+      margin: 2rem auto;
+
+      @media only screen and (min-width: 710px) {
+        max-width: 640px;
+      }
+    }
+
+    &.gallery-4 {
+      margin: 2rem auto;
+      font-size: 0;
+      line-height: 0;
+
+      img {
+        display: inline-block;
+        width: calc(50% - .5rem);
+        margin: .25rem;
+      }
+
+      @media only screen and (min-width: 820px) {
+        max-width: 750px;
+      }
+    }
   }
 }
