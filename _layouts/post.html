@@ -5,17 +5,9 @@ layout: default
 <div class='post'>
   <header>
     <p>
+      {% include share.html %}
+
       {% if page.date %}<span class='date'>{{ page.date | date: '%B %e, %Y' }}</span>{% endif %}
-
-      <span class='social'>
-        <a href='https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}' title='Share on Twitter' target='_blank'>
-          {% include svg/twitter.svg %}
-        </a>
-
-        <a href='https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}' title='Share on Facebook' target='_blank'>
-          {% include svg/facebook.svg %}
-        </a>
-      </span>
     </p>
 
     {% if page.banner %} <img src='{{ page.banner }}' alt='{{ page.title }}' />{% endif %}
@@ -25,18 +17,10 @@ layout: default
 
   <footer>
     <p>
+      {% include share.html %}
+
       <span class='tags'>
         {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
-      </span>
-
-      <span class='social'>
-        <a href='https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}' title='Share on Twitter' target='_blank'>
-          {% include svg/twitter.svg %}
-        </a>
-
-        <a href='https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}' title='Share on Facebook' target='_blank'>
-          {% include svg/facebook.svg %}
-        </a>
       </span>
     </p>
   </footer>
