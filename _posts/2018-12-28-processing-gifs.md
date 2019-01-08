@@ -13,7 +13,7 @@ and also my excuse to learn Processing.
 Inspired by lots of Twitter and Tumblr accounts dedicated to cranking out stuff like this,
 but particularly indebted to [bees & bombs](https://beesandbombs.tumblr.com),
 who shared [some of his code](https://gist.github.com/beesandbombs) and gave me a starting point.
-Reverse engineering is once of my favourite ways to learn,
+Reverse engineering is one of my favourite ways to learn,
 so I deobfuscated and picked apart some of his animations and adapted his framework to my own ends.
 Here's what I came up with!
 
