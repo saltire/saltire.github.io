@@ -1,0 +1,31 @@
+{
+  "name": "saltiresable.com",
+  "version": "1.0.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack",
+    "start": "bundle exec jekyll serve"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "luxon": "^1.11.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "terser-webpack-plugin": "^1.2.2",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
